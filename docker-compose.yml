@@ -1,0 +1,26 @@
+services:
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile.server
+    container_name: kamai-kaksha-server
+    ports:
+      - "5001:5001"
+    environment:
+      - PORT=5001
+      - NODE_ENV=production
+      - CLIENT_ORIGIN=http://localhost:5173
+      - FACILITATOR_SECRET=${FACILITATOR_SECRET:-facilitator_secret_placeholder}
+      - ISSUER_DID=did:web:kamai-kaksha.example
+    restart: unless-stopped
+
+  client:
+    build:
+      context: .
+      dockerfile: Dockerfile.client
+    container_name: kamai-kaksha-client
+    ports:
+      - "5173:80"
+    depends_on:
+      - server
+    restart: unless-stopped

@@ -1,0 +1,88 @@
+{
+  "app_name": "Kamai Kaksha",
+  "app_tagline": "The Earning Classroom",
+  "pitch_line": "Turning village students' skills into their first income, first savings, and first credit history.",
+  "sample_data_badge": "SAMPLE / ILLUSTRATIVE",
+  "sample_notice": "Sample data for demonstration",
+  "sample_estimate": "Estimate, based on sample data",
+  "time_of_day": {
+    "dawn": "Dawn",
+    "noon": "Noon",
+    "sunset": "Sunset"
+  },
+  "nav": {
+    "home": "Home",
+    "lifemap": "Life Map",
+    "tasks": "Micro-Tasks",
+    "wallet": "Wallet",
+    "passport": "Skill Passport",
+    "facilitator": "Facilitator",
+    "showcase": "Showcase",
+    "about": "About"
+  },
+  "connectivity": {
+    "offline_badge": "You are offline (App shell active)",
+    "online_badge": "Back online (Syncing changes)",
+    "pending_sync": "Pending sync"
+  },
+  "mascot": {
+    "name": "Kamu",
+    "intro_dawn": "Namaste! Repair radios? Let's turn it into income.",
+    "intro_noon": "Solar inverter module is ready to practice!",
+    "intro_dusk": "Awesome! ₹40 credited and 10% auto-saved.",
+    "speak_tooltip": "Listen to Kamu's guidance"
+  },
+  "bento": {
+    "skill_level_title": "Your Skill Level",
+    "skill_path_text": "Radio & Circuit Repair → Solar PV Tech",
+    "milestone_text": "Next Milestone: Inverter Soldering Practice",
+    "xp_chip": "+120 XP",
+    "levels": {
+      "beginner": "Beginner",
+      "growing": "Growing",
+      "skilled": "Skilled",
+      "pro": "Pro"
+    },
+    "projected_title": "Projected earnings in 12 months",
+    "projected_amount": "₹48,000",
+    "projected_sub": "Illustrative: ₹4,000/mo × 12 mos based on sample micro-task demand",
+    "social_proof_title": "Village Peer Success",
+    "social_proof_quote": "Started with transistor repair; now installing rooftop solar in Gaya block.",
+    "social_proof_role": "Tekari, Gaya • Solar Technician",
+    "social_proof_first_earning": "1st Earning: ₹40",
+    "kamu_tile_title": "Meet Kamu, your guide",
+    "kamu_tile_desc": "I help you find high-demand skills and unlock paid village micro-tasks.",
+    "kamu_tile_chip": "Voice Assistant Ready (Hindi/Magahi)",
+    "streak_tile_title": "Learning Streak",
+    "streak_days": "Days",
+    "streak_sub": "Growing sprout stage",
+    "streak_diya_lit": "Diya flame lit today! 🔥",
+    "days_logged_title": "Over 24,000 learning days logged across Bihar & UP",
+    "days_logged_sub": "Grounded in 18 vocational tracks",
+    "widget_mock_title": "Mobile Lock-screen Widget",
+    "widget_mock_sub": "Instant glance without unlocking phone",
+    "widget_daily_progress": "Priya's Daily Progress",
+    "widget_streak_xp": "🔥 14-day streak • 80 XP to Skilled Level",
+    "wallet_balance_label": "Simulated Wallet",
+    "auto_save_label": "Auto-Saved (10%)"
+  },
+  "fresh_state": {
+    "title": "Fresh Start",
+    "streak_fresh": "0 Days",
+    "streak_sub": "Take your first step today",
+    "xp_fresh": "0 XP",
+    "skill_path_fresh": "Skill Discovery → Career Mapping",
+    "milestone_fresh": "Begin Voice Life Map"
+  },
+  "actions": {
+    "next": "Continue",
+    "back": "Back",
+    "skip": "Skip",
+    "open_lifemap": "Open Voice Life Map",
+    "start_task": "Start Micro-Task",
+    "listen_voice": "Tap to Speak",
+    "voice_answering": "Listening...",
+    "retry_sync": "Sync Now",
+    "toggle_demo": "Demo Controls"
+  }
+}

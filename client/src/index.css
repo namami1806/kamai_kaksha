@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #F6F8FD;
+    color: #1F2540;
+    font-family: 'Poppins', 'Baloo 2', 'Noto Sans Devanagari', system-ui, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Custom scrollbars for clean mobile feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(31, 37, 64, 0.15);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(31, 37, 64, 0.25);
+}
+
+/* Gentle keyframe animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-6px); }
+}
+
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.02); }
+}
+
+@keyframes cloudDrift {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(25px); }
+  100% { transform: translateX(0); }
+}
+
+.animate-float {
+  animation: float 3.5s ease-in-out infinite;
+}
+
+.animate-cloud {
+  animation: cloudDrift 18s ease-in-out infinite;
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 2s ease-in-out infinite;
+}
+
+/* Bento Tile Base Styling */
+.bento-card {
+  border-radius: 28px;
+  padding: 1.5rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 20px -2px rgba(31, 37, 64, 0.05), 0 2px 6px -1px rgba(31, 37, 64, 0.02);
+}
+
+.bento-card:hover {
+  box-shadow: 0 12px 30px -4px rgba(31, 37, 64, 0.08);
+  transform: translateY(-2px);
+}

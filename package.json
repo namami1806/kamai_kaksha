@@ -1,0 +1,17 @@
+{
+  "name": "kamai-kaksha-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "start": "node scripts/start-all.js",
+    "dev": "node scripts/start-all.js",
+    "build": "npm run build --prefix client",
+    "test": "node scripts/run-all-tests.js"
+  },
+  "description": "Kamai Kaksha (The Earning Classroom) - Monorepo for Citi Hackathon"
+}
